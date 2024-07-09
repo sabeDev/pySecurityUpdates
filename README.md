@@ -12,4 +12,5 @@ To install modules, use pip install [module name]
 The following demonstrates how to make a compiled windows executable:
 ```
 python -m PyInstaller --onefile scrape.py # single file
-pyinstaller --onefile --
+pyinstaller --onefile --add-data "path/to/yourdata.yaml;." yourscript.py
+```
